@@ -18,4 +18,9 @@ public class HomeController {
 	{
 		return "Pooja";
 	}
+	@RequestMapping
+	public String dataps()
+	{
+		return "Snehal";
+	}
 }
