@@ -12,4 +12,10 @@ public class HomeController {
 	{
 		return "Ajinkya";
 	}
+	
+	@RequestMapping
+	public String datapj()
+	{
+		return "Pooja";
+	}
 }
